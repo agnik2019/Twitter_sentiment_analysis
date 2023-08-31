@@ -15,7 +15,7 @@ Average text length of the tweets (in training dataset) 19.63
 | Negative               | 1159   |
 | Objective              | 1032   |
 
-
+### Model description
 Following table contains Model name and its accuracy on the validation set.
 
 | Model                              | Accuracy      |
@@ -24,6 +24,9 @@ Following table contains Model name and its accuracy on the validation set.
 |Support Vector Machine           |   0.64         |
 |Random Forest Classifier | 0.602|                                
 | Multinomial Naive Bayes|  0.615 |
-| Bert|  0.75 |
+| Bert|  0.74 |
+
+So from this experiment it has been seen that Bert achieves high accuracy.
+I have used pre-trained tokenizer as well as model bert-base-uncased.
 
 
